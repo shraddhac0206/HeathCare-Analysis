@@ -30,8 +30,6 @@ Use a pair plot to understand the relationship between all the given variables.
 
  
 
-Project Task: Week 1
-
 Importing, Understanding, and Inspecting Data :
 
 Perform preliminary data inspection and report the findings as the structure of the data, missing values, duplicates, etc.
@@ -52,8 +50,6 @@ Study the composition of overall patients w.r.t . gender.
 
 
  
-
-Project Task: Week 2
 
 Performing EDA and Modeling:
 
