@@ -1,5 +1,6 @@
 # HeathCare-Analysis
 This project is a data analytics project that was completed using Python. The goal of the project was to analyze a dataset and derive insights from it. The project was completed using various Python libraries such as numpy, pandas, matplotlib and seaborn.
+
 DESCRIPTION
 
 Data Analysis is the process of creating a story using the data for easy and effective communication. It mostly utilizes visualization methods like plots, charts, and tables to convey what the data holds beyond the formal modeling or hypothesis testing task.
@@ -14,6 +15,7 @@ Cardiovascular diseases are the leading cause of death globally. To identify the
 
 Perform preliminary data inspection and report the findings as to the structure of the data, missing values, duplicates, etc.
 Based on the findings from the previous question remove duplicates (if any) , treat missing values using an appropriate strategy.
+
 2. Prepare an informative report about the data explaining the distribution of the disease and the related factors. You could use the below approach to achieve the objective
 
 Get a preliminary statistical summary of the data. Explore the measures of central tendencies and the spread of the data overall.
@@ -26,45 +28,46 @@ What can be concluded about the relationship between peak exercising and the occ
 Is thalassemia a major cause of CVD?
 How are the other factors determining the occurrence of CVD?
 Use a pair plot to understand the relationship between all the given variables.
+
 3. Build a baseline model to predict using a Logistic Regression and explore the results.
 
  
 
 Importing, Understanding, and Inspecting Data :
 
-Perform preliminary data inspection and report the findings as the structure of the data, missing values, duplicates, etc.
+1. Perform preliminary data inspection and report the findings as the structure of the data, missing values, duplicates, etc.
 
-Based on the findings from the previous question, remove duplicates (if any) and treat missing values using an appropriate strategy.
+2. Based on the findings from the previous question, remove duplicates (if any) and treat missing values using an appropriate strategy.
 
-Get a preliminary statistical summary of the data. Explore the measures of central tendencies and the spread of the data overall.
+3. Get a preliminary statistical summary of the data. Explore the measures of central tendencies and the spread of the data overall.
 
 Performing EDA:
 
-Identify the data variables which might be categorical in nature. Describe and explore these variables using appropriate tools. For example: count plot.
+4. Identify the data variables which might be categorical in nature. Describe and explore these variables using appropriate tools. For example: count plot.
 
-Study the occurrence of CVD across different ages.
+5. Study the occurrence of CVD across different ages.
 
-Can we detect heart attack based on anomalies in resting blood pressure of the patient?
+6. Can we detect heart attack based on anomalies in resting blood pressure of the patient?
 
-Study the composition of overall patients w.r.t . gender.
+7. Study the composition of overall patients w.r.t . gender.
 
 
  
 
 Performing EDA and Modeling:
 
-Describe the relationship between cholesterol levels and our target variable.
+1. Describe the relationship between cholesterol levels and our target variable.
 
-What can be concluded about the relationship between peak exercising and occurrence of heart attack?
+2. What can be concluded about the relationship between peak exercising and occurrence of heart attack?
 
-Is thalassemia a major cause of CVD? How are the other factors determining the occurrence of CVD?
+3. Is thalassemia a major cause of CVD? How are the other factors determining the occurrence of CVD?
 
-Use a pair plot to understand the relationship between all the given variables.
+4. Use a pair plot to understand the relationship between all the given variables.
 
-Perform logistic regression, predict the outcome for test data, and validate the results by using the confusion matrix.
+5. Perform logistic regression, predict the outcome for test data, and validate the results by using the confusion matrix.
 
 Dashboarding:
 
-Visualize the variables using Tableau to create an understanding for attributes of a Diseased vs. a Healthy person.
+1. Visualize the variables using Tableau to create an understanding for attributes of a Diseased vs. a Healthy person.
 
-Demonstrate  the variables associated with each other and factors to build a dashboard
+2. Demonstrate  the variables associated with each other and factors to build a dashboard
