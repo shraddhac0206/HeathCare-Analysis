@@ -1,73 +1,44 @@
-# HeathCare-Analysis
-This project is a data analytics project that was completed using Python. The goal of the project was to analyze a dataset and derive insights from it. The project was completed using various Python libraries such as numpy, pandas, matplotlib and seaborn.
+#  Cardiovascular Disease Analysis & Prediction
 
-DESCRIPTION
+This project is a **healthcare data analytics study** aimed at understanding and predicting cardiovascular disease (CVD) using Python-based data exploration, statistical analysis, machine learning, and dashboarding techniques.
 
-Data Analysis is the process of creating a story using the data for easy and effective communication. It mostly utilizes visualization methods like plots, charts, and tables to convey what the data holds beyond the formal modeling or hypothesis testing task.
+Using a real-world dataset of patient health records, this project applies exploratory data analysis (EDA), visual storytelling, and logistic regression modeling to uncover key risk factors and support early detection of heart disease.
 
-Domain: Healthcare
+---
 
-Read the information given below and also refer to the data dictionary provided separately in an excel file to build your understanding.
+##  Project Objectives
 
-Cardiovascular diseases are the leading cause of death globally. To identify the causes and to develop a system to predict heart attack in an effective manner is necessary. The presented data has all the information about all the relevant factors that might have an impact on heart health. The data needs to be explained in detail for any further analysis.
+- Perform **data cleaning and inspection**, including detection and treatment of missing values and duplicates.
+- Conduct **exploratory data analysis (EDA)** to study variables such as age, gender, resting blood pressure, cholesterol, exercise-induced angina, and thalassemia.
+- Use visualizations (count plots, pair plots, heatmaps) to uncover relationships between patient features and CVD occurrence.
+- Build a **baseline predictive model** using Logistic Regression to classify patients as healthy or at risk.
+- Evaluate model performance using accuracy, confusion matrix, and classification report.
+- Create a **Tableau dashboard** to provide interactive and intuitive insights about the diseased vs. healthy population.
 
-1. Preliminary analysis:
+---
 
-Perform preliminary data inspection and report the findings as to the structure of the data, missing values, duplicates, etc.
-Based on the findings from the previous question remove duplicates (if any) , treat missing values using an appropriate strategy.
+##  Key Features
 
-2. Prepare an informative report about the data explaining the distribution of the disease and the related factors. You could use the below approach to achieve the objective
+- **Domain**: Healthcare Analytics  
+- **Tech Stack**: 
+  - Python (pandas, numpy, seaborn, matplotlib, scikit-learn)  
+- **Techniques Used**:
+  - Statistical summary and descriptive analytics
+  - Visualization of categorical and continuous features
+  - Pair plots and correlation heatmaps
+  - Binary classification using logistic regression
+  - Confusion matrix and classification report for model validation
 
-Get a preliminary statistical summary of the data. Explore the measures of central tendencies and the spread of the data overall.
-Identify the data variables which might be categorical in nature. Describe and explore these variables using appropriate tools e.g. count plot
-Study the occurrence of CVD across Age.
-Study the composition of overall patients w.r.t. Gender.
-Can we detect a heart attack based on anomalies in the Resting Blood Pressure of the patient?
-Describe the relationship between Cholesterol levels and our target variable.
-What can be concluded about the relationship between peak exercising and the occurrence of a heart attack.
-Is thalassemia a major cause of CVD?
-How are the other factors determining the occurrence of CVD?
-Use a pair plot to understand the relationship between all the given variables.
+---
 
-3. Build a baseline model to predict using a Logistic Regression and explore the results.
+##  Insights Explored
+- Distribution of CVD across **age** and **gender**
+- Relationship between **resting blood pressure** and heart health
+- Impact of **cholesterol** and **peak exercise** on heart disease likelihood
+- Influence of **thalassemia** and other categorical variables on CVD
 
- 
-
-Importing, Understanding, and Inspecting Data :
-
-1. Perform preliminary data inspection and report the findings as the structure of the data, missing values, duplicates, etc.
-
-2. Based on the findings from the previous question, remove duplicates (if any) and treat missing values using an appropriate strategy.
-
-3. Get a preliminary statistical summary of the data. Explore the measures of central tendencies and the spread of the data overall.
-
-Performing EDA:
-
-4. Identify the data variables which might be categorical in nature. Describe and explore these variables using appropriate tools. For example: count plot.
-
-5. Study the occurrence of CVD across different ages.
-
-6. Can we detect heart attack based on anomalies in resting blood pressure of the patient?
-
-7. Study the composition of overall patients w.r.t . gender.
+---
 
 
  
 
-Performing EDA and Modeling:
-
-1. Describe the relationship between cholesterol levels and our target variable.
-
-2. What can be concluded about the relationship between peak exercising and occurrence of heart attack?
-
-3. Is thalassemia a major cause of CVD? How are the other factors determining the occurrence of CVD?
-
-4. Use a pair plot to understand the relationship between all the given variables.
-
-5. Perform logistic regression, predict the outcome for test data, and validate the results by using the confusion matrix.
-
-Dashboarding:
-
-1. Visualize the variables using Tableau to create an understanding for attributes of a Diseased vs. a Healthy person.
-
-2. Demonstrate  the variables associated with each other and factors to build a dashboard
